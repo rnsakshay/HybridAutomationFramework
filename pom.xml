@@ -12,6 +12,75 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Centralized version management matrix for easy upgrades -->
+        <selenium.version>4.21.0</selenium.version>
+        <rest-assured.version>5.4.0</rest-assured.version>
+        <testng.version>7.10.2</testng.version>
+        <jackson.version>2.17.1</jackson.version>
     </properties>
 
+    <dependencies>
+        <!--
+            UI AUTOMATION CORE LAYER:
+            Initializes Selenium Java bindings to manage browser lifecycles,
+            interact with web elements, and execute actions inside Page Objects.
+        -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!--
+            API AUTOMATION CORE LAYER:
+            Initializes Rest Assured to build HTTP requests, capture network responses,
+            and perform backend functional testing. Limited to test scope.
+        -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest-assured.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--
+            TEST MANAGEMENT ENGINE:
+            Initializes TestNG to handle execution workflows, parallel test execution configurations,
+            test assertions, and runtime pre/post hooks.
+        -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--
+            DATA TRANSFORMATION ENGINE (MARSHALING):
+            Initializes Jackson Databind to handle serialization (converting Java POJO models
+            to JSON strings) and deserialization (converting JSON responses back to Java objects).
+        -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- MAVEN COMPILER PLUGINS LAYER: Enforces compilation rules matching Java 17 compliance -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
