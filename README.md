@@ -1,32 +1,37 @@
-# Hybrid Automation Framework (UI + API)
+# 🚀 Hybrid Automation Framework
 
-A scalable, robust, and industry-standard Hybrid Test Automation Framework built from scratch utilizing **Java**, **Selenium WebDriver**, and **Rest Assured**. This architecture is integrated with **GitHub Actions** to demonstrate seamless CI/CD pipeline execution and automated reporting.
+An enterprise-grade, highly scalable **Hybrid Automation Framework** designed for both UI and API testing. The architecture is engineered with strict separation of concerns, thread safety for parallel execution, and environment-based continuous integration routing.
 
 ---
 
-## 🏗️ Framework Architecture & Folder Structure
+## 📂 Framework Directory Structure
 
-The project is structured around the principles of **Separation of Concerns** and **Clean Code**. Each folder and package has a dedicated architectural responsibility:
+The repository follows standard Maven layout conventions, separating source logic (`src/main`) from validation runtime scripts (`src/test`):
 
 ```text
-HybridAutomationFramework/
-│
-├── .github/workflows/
-│   └── automation-run.yml       # DevOps Layer: GitHub Actions CI/CD pipeline configuration script
-│
-├── src/main/java/com/akshay/
-│   ├── base/                    # Engine Room: Core initialization, ThreadLocal configuration for parallel execution
-│   ├── models/                  # Data Modeling: Plain Old Java Objects (POJO) representing API payloads
-│   ├── pages/                   # UI Elements: Page Object Model (POM) repositories (Strictly containing actions, no assertions)
-│   └── util/                    # Utility Layer: Configuration file readers, custom loggers, and reporting helpers
-│
-├── src/main/resources/
-│   └── config.properties        # Global Settings: Environment URLs, browser definitions, and headless execution flags
-│
-├── src/test/java/com/akshay/
-│   ├── api/                     # Test Scripts: Rest Assured functional API automation test cases
-│   └── ui/                      # Test Scripts: Selenium Web UI end-to-end automation test cases
-│
-└── src/test/resources/
-    ├── screenshots/             # Diagnostics: Automated capture laboratory for UI test failure screens
-    └── testdata/                # Data Warehouse: External test data files formatted in JSON, Excel, or CSV
+src
+├── main
+│   ├── java
+│   │   └── com.akshay
+│   │       ├── driver         # ThreadLocal thread-safe driver engine allocations
+│   │       ├── pages          # Page Object Model (POM) element maps & components
+│   │       ├── components     # Global shared UI blocks (Header, Navigation)
+│   │       ├── waits          # Explicit wait orchestration synchronization wrappers
+│   │       ├── util           # Property readers, parsing utilities, and formatters
+│   │       ├── listeners      # TestNG Reporting hooks and Extent engine logs
+│   │       ├── constants      # Static globally accessible framework configurations
+│   │       └── models         # Data POJOs for API Serialization/Deserialization
+│   └── resources
+│       ├── config.qa.properties      # Target environment execution routes
+│       ├── config.uat.properties     # Staging platform properties
+│       └── config.prodqa.properties  # Production verification properties
+└── test
+    ├── java
+    │   └── com.akshay
+    │       ├── base           # Lifecycle hook execution engine (BaseTest.java)
+    │       ├── ui             # Front-end Browser UI test layers (Smoke/Regression)
+    │       └── api            # Back-end REST Assured test layers (Smoke/Regression)
+    └── resources
+        ├── testdata           # Excel sheets, JSON templates, or data-driven assets
+        ├── screenshots        # Failure tracking automatic media attachments
+        └── testng.xml         # XML test suite runner configuration
