@@ -10,8 +10,10 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 public class ScreenshotUtils {
     private static final Logger logger =  LoggerFactory.getLogger(ScreenshotUtils.class);
@@ -30,44 +32,23 @@ public class ScreenshotUtils {
 
     public static String captureScreenshot(String testName) {
 
-        WebDriver driver = DriverManager.getDriver();
+        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss")
+                .format(new Date());
 
-        String timestamp = LocalDateTime.now().format(FORMATTER);
+        String destination = System.getProperty("user.dir")
+                + "/test-output/screenshots/"
+                + testName + "_" + timestamp + ".png";
 
-        String screenshotPath =
-                SCREENSHOT_DIRECTORY
-                        + File.separator
-                        + testName
-                        + "_"
-                        + timestamp
-                        + ".png";
+        File source = ((TakesScreenshot) DriverManager.getDriver())
+                .getScreenshotAs(OutputType.FILE);
 
         try {
-
-            File directory = new File(SCREENSHOT_DIRECTORY);
-
-            if (!directory.exists()) {
-                directory.mkdirs();
-            }
-
-            File source =
-                    ((TakesScreenshot) driver)
-                            .getScreenshotAs(OutputType.FILE);
-
-            File destination = new File(screenshotPath);
-
-            FileUtils.copyFile(source, destination);
-
-            logger.info("Screenshot captured successfully : {}", screenshotPath);
-
-            return screenshotPath;
-
+            FileUtils.copyFile(source, new File(destination));
         } catch (IOException e) {
-
-            logger.error("Unable to capture screenshot.", e);
-
-            throw new RuntimeException("Screenshot capture failed.", e);
+            throw new RuntimeException("Unable to capture screenshot", e);
         }
+
+        return destination;
     }
 }
 
