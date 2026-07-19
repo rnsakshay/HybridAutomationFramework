@@ -1,54 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.akshay</groupId>
     <artifactId>HybridAutomationFramework</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Hybrid Automation Framework</name>
 
     <properties>
+        <!-- Java -->
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <!-- Centralized version management matrix for easy upgrades -->
+        <!-- Framework Versions -->
         <selenium.version>4.21.0</selenium.version>
-        <rest-assured.version>5.4.0</rest-assured.version>
+        <restassured.version>5.4.0</restassured.version>
         <testng.version>7.10.2</testng.version>
         <jackson.version>2.17.1</jackson.version>
+        <poi.version>5.4.1</poi.version>
+        <slf4j.version>2.0.17</slf4j.version>
+        <log4j2.version>2.25.1</log4j2.version>
+        <extentreports.version>5.1.2</extentreports.version>
     </properties>
 
     <dependencies>
-        <!--
-            UI AUTOMATION CORE LAYER:
-            Initializes Selenium Java bindings to manage browser lifecycles,
-            interact with web elements, and execute actions inside Page Objects.
-        -->
+
+        <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
         </dependency>
-
-        <!--
-            API AUTOMATION CORE LAYER:
-            Initializes Rest Assured to build HTTP requests, capture network responses,
-            and perform backend functional testing. Limited to test scope.
-        -->
+        <!-- Rest Assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>${rest-assured.version}</version>
+            <version>${restassured.version}</version>
             <scope>test</scope>
         </dependency>
 
-        <!--
-            TEST MANAGEMENT ENGINE:
-            Initializes TestNG to handle execution workflows, parallel test execution configurations,
-            test assertions, and runtime pre/post hooks.
-        -->
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -56,31 +52,74 @@
             <scope>test</scope>
         </dependency>
 
-        <!--
-            DATA TRANSFORMATION ENGINE (MARSHALING):
-            Initializes Jackson Databind to handle serialization (converting Java POJO models
-            to JSON strings) and deserialization (converting JSON responses back to Java objects).
-        -->
+        <!-- Jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
 
+        <!-- Apache POI (Excel Reader) -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+
+        <!-- Extent Reports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
         <plugins>
-            <!-- MAVEN COMPILER PLUGINS LAYER: Enforces compilation rules matching Java 17 compliance -->
+
+            <!-- Java Compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
+                    <release>17</release>
                 </configuration>
             </plugin>
+
+            <!-- TestNG Runner -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.3</version>
+         <!--       <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>-->
+            </plugin>
+
         </plugins>
     </build>
+
 </project>

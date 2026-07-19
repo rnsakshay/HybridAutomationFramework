@@ -1,7 +1,7 @@
 package com.akshay.base;
 
 import com.akshay.constants.FrameworkConstants;
-import com.akshay.util.ConfigReader;
+import com.akshay.utilities.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;

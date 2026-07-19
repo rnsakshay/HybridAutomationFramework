@@ -1,4 +1,4 @@
-package com.akshay.util;
+package com.akshay.utilities;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
