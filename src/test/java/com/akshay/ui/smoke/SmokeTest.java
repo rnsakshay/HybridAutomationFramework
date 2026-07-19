@@ -2,6 +2,7 @@ package com.akshay.ui.smoke;
 
 import com.akshay.base.BaseTest;
 import com.akshay.base.DriverManager;
+import com.akshay.reporting.ExtentTestManager;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,11 +10,14 @@ public class SmokeTest extends BaseTest {
 
     @Test(description = "Verify that the Juice Shop application landing page opens successfully.")
     public void verifyApplicationTitle() {
+        final String expectedTitle = "Swag Labs";
+        ExtentTestManager.getTest().info("Verifying application landing page title.");
         String actualTitle = DriverManager.getDriver().getTitle();
-        System.out.println(">>> Target Website Title Captured: " + actualTitle);
+        ExtentTestManager.getTest().info("Captured page title: " + actualTitle);
 
-        // Ensure title is loaded and not null/empty
-        Assert.assertNotNull(actualTitle, "Page title is null!");
-        Assert.assertFalse(actualTitle.isBlank(), "Page title is completely empty!");
+        Assert.assertEquals(actualTitle, expectedTitle,
+                "Application title does not match.");
+
+        ExtentTestManager.getTest().pass("Application title verified successfully.");
     }
 }

@@ -1168,3 +1168,1515 @@
 2026-07-19 11:09:13 INFO  [main] BaseTest - Closing browser...
 2026-07-19 11:09:13 INFO  [main] BaseTest - Browser closed successfully.
 2026-07-19 11:09:13 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:07 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 11:20:08 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 11:20:08 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 11:20:08 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 11:20:08 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 11:20:08 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:08 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:10 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:11 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:11 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:11 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 11:20:11 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:11 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:20:11 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:20:11 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:11 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:11 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 11:20:11 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:11 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:11 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:11 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:11 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:20:11 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:20:11 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:20:11 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:11 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:12 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:12 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:12 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:12 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:13 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:14 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:14 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:14 INFO  [main] LoginTest - Username: [locked_out_user]
+2026-07-19 11:20:14 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:14 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:20:14 INFO  [main] LoginTest - Expected Message: Epic sadface: Sorry, this user has been locked out.
+2026-07-19 11:20:14 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:14 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:14 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-19 11:20:14 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:14 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:14 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:14 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:14 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:20:14 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:14 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:14 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 11:20:14 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 11:20:14 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:20:14 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:14 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:14 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:14 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:14 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:14 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:15 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:16 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:16 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:16 INFO  [main] LoginTest - Username: [problem_user]
+2026-07-19 11:20:16 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:16 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:20:16 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:20:16 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:16 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:16 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-19 11:20:16 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:16 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:16 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:17 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:17 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:20:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:20:17 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:20:17 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:17 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:17 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:17 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:17 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:17 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:18 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:20 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:20 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:20 INFO  [main] LoginTest - Username: [performance_glitch_user]
+2026-07-19 11:20:20 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:20 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:20:20 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:20:20 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:20 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-19 11:20:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:20 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:20 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:25 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:25 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:20:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:20:25 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:20:25 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:25 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:26 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:26 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:26 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:26 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:27 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:28 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:28 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:28 INFO  [main] LoginTest - Username: [error_user]
+2026-07-19 11:20:28 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:28 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:20:28 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:20:28 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:28 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:28 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-19 11:20:28 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:28 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:28 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:28 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:28 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:20:28 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:20:28 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:20:28 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:28 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:28 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:28 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:28 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:28 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:29 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:30 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:30 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:30 INFO  [main] LoginTest - Username: [visual_user]
+2026-07-19 11:20:30 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:30 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:20:30 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:20:30 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:30 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-19 11:20:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:31 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:31 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:31 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:31 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:20:31 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:20:31 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:20:31 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:31 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:31 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:31 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:31 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:31 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:32 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:33 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:33 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:33 INFO  [main] LoginTest - Username: [invalid_user]
+2026-07-19 11:20:33 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:33 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:20:33 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:20:33 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:33 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-19 11:20:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:33 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:33 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:33 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:33 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:20:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:33 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:20:33 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:20:33 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:20:33 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:33 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:34 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:34 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:34 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:34 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:35 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:35 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:35 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:35 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 11:20:35 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:35 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:20:35 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:20:35 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:36 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 11:20:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:36 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-19 11:20:36 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:36 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:36 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:20:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:36 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:20:36 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:20:36 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:20:36 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:36 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:36 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:36 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:36 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:36 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:37 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:38 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:38 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:38 INFO  [main] LoginTest - Username: []
+2026-07-19 11:20:38 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:20:38 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:20:38 INFO  [main] LoginTest - Expected Message: Epic sadface: Username is required
+2026-07-19 11:20:38 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:38 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-19 11:20:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:38 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:20:38 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:38 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:38 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:20:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:39 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:39 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username is required
+2026-07-19 11:20:39 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username is required
+2026-07-19 11:20:39 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:20:39 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:39 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:39 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:39 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:39 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:39 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:40 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:41 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:41 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:20:41 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 11:20:41 INFO  [main] LoginTest - Password: [<EMPTY>]
+2026-07-19 11:20:41 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:20:41 INFO  [main] LoginTest - Expected Message: Epic sadface: Password is required
+2026-07-19 11:20:41 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:20:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:20:41 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 11:20:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:20:41 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-19 11:20:41 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:20:41 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:20:41 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:20:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:20:41 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Password is required
+2026-07-19 11:20:41 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Password is required
+2026-07-19 11:20:41 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:20:41 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:20:41 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:41 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:41 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:20:41 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:20:41 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:20:42 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:20:43 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:20:43 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:20:43 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:20:43 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:23:55 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 11:23:56 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 11:23:56 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 11:23:56 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 11:23:56 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 11:23:56 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:23:56 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:23:58 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:23:59 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:23:59 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:23:59 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 11:23:59 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:23:59 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:23:59 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:23:59 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:23:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:23:59 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 11:23:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:23:59 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:23:59 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:23:59 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:23:59 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:23:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:24:00 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:24:00 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:00 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:00 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:00 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:00 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:00 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:01 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:02 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:02 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:02 INFO  [main] LoginTest - Username: [locked_out_user]
+2026-07-19 11:24:02 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:02 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:24:02 INFO  [main] LoginTest - Expected Message: Epic sadface: Sorry, this user has been locked out.
+2026-07-19 11:24:02 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:02 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-19 11:24:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:02 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:24:02 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:02 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:02 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:24:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:02 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 11:24:02 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 11:24:02 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:24:02 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:02 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:03 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:03 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:03 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:03 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:04 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:05 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:05 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:05 INFO  [main] LoginTest - Username: [problem_user]
+2026-07-19 11:24:05 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:05 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:24:05 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:24:05 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:05 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-19 11:24:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:05 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:24:05 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:05 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:05 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:24:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:24:05 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:24:05 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:05 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:05 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:05 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:05 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:05 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:06 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:07 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:07 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:07 INFO  [main] LoginTest - Username: [performance_glitch_user]
+2026-07-19 11:24:07 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:07 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:24:07 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:24:07 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:07 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:08 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-19 11:24:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:08 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:24:08 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:13 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:13 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:24:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:24:13 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:24:13 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:13 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:13 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:13 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:13 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:13 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:14 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:15 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:15 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:15 INFO  [main] LoginTest - Username: [error_user]
+2026-07-19 11:24:15 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:15 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:24:15 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:24:15 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:15 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-19 11:24:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:16 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:24:16 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:16 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:16 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:24:16 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:24:16 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:24:16 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:16 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:16 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:16 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:16 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:16 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:17 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:18 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:18 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:18 INFO  [main] LoginTest - Username: [visual_user]
+2026-07-19 11:24:18 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:18 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 11:24:18 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 11:24:18 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:18 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-19 11:24:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:18 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:24:18 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:19 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:19 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 11:24:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 11:24:19 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 11:24:19 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:19 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:19 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:19 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:19 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:19 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:20 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:21 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:21 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:21 INFO  [main] LoginTest - Username: [invalid_user]
+2026-07-19 11:24:21 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:21 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:24:21 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:24:21 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:21 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:21 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-19 11:24:21 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:21 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:24:21 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:21 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:21 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:24:21 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:21 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:21 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:24:21 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:24:21 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:24:21 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:21 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:22 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:22 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:22 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:22 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:23 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:24 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:24 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:24 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 11:24:24 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:24 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:24:24 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:24:24 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:24 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 11:24:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:24 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-19 11:24:24 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:24 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:24 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:24:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:24 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:24:24 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 11:24:24 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:24:24 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:24 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:24 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:24 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:24 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:24 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:25 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:26 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:26 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:26 INFO  [main] LoginTest - Username: []
+2026-07-19 11:24:26 INFO  [main] LoginTest - Password: [******]
+2026-07-19 11:24:26 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:24:26 INFO  [main] LoginTest - Expected Message: Epic sadface: Username is required
+2026-07-19 11:24:26 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:26 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:26 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-19 11:24:26 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:27 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 11:24:27 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:27 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:27 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:24:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:27 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username is required
+2026-07-19 11:24:27 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username is required
+2026-07-19 11:24:27 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:24:27 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:27 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:27 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:27 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:27 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:27 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:28 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:29 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:29 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 11:24:29 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 11:24:29 INFO  [main] LoginTest - Password: [<EMPTY>]
+2026-07-19 11:24:29 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 11:24:29 INFO  [main] LoginTest - Expected Message: Epic sadface: Password is required
+2026-07-19 11:24:29 INFO  [main] LoginTest - Attempting login...
+2026-07-19 11:24:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 11:24:29 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 11:24:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 11:24:29 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-19 11:24:29 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 11:24:29 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 11:24:29 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 11:24:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 11:24:29 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Password is required
+2026-07-19 11:24:29 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Password is required
+2026-07-19 11:24:29 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 11:24:29 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 11:24:29 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:29 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:29 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 11:24:29 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 11:24:29 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 11:24:31 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 11:24:31 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 11:24:31 INFO  [main] BaseTest - Closing browser...
+2026-07-19 11:24:32 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 11:24:32 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:00:46 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 16:00:47 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 16:00:47 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 16:00:47 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 16:00:47 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 16:00:47 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:00:47 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:00:51 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:00:52 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:00:52 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:00:52 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:00:52 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:00:52 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:00:52 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:00:52 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:00:52 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:00:52 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:00:52 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:00:52 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:00:52 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:00:53 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:00:53 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:00:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:00:53 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:00:53 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:00:53 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:00:53 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:00:53 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:00:53 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:00:53 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:00:54 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:00:55 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:00:55 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:00:55 INFO  [main] LoginTest - Username: [locked_out_user]
+2026-07-19 16:00:55 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:00:55 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:00:55 INFO  [main] LoginTest - Expected Message: Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:00:55 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:00:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:00:55 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-19 16:00:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:00:55 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:00:55 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:00:55 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:00:55 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:00:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:00:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:00:55 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:00:55 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:00:55 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:00:55 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:00:55 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:00:55 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:00:55 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:00:55 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:00:55 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:00:57 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:00:57 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:00:57 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:00:57 INFO  [main] LoginTest - Username: [problem_user]
+2026-07-19 16:00:57 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:00:57 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:00:57 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:00:57 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:00:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:00:58 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-19 16:00:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:00:58 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:00:58 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:00:58 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:00:58 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:00:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:00:58 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:00:58 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:00:58 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:00:58 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:00:58 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:00:58 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:00:58 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:00:59 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:00 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:00 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:01:00 INFO  [main] LoginTest - Username: [performance_glitch_user]
+2026-07-19 16:01:00 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:01:00 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:01:00 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:01:00 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:01:00 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:01:00 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-19 16:01:00 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:01:00 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:01:00 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:01:05 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:01:05 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:01:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:01:06 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:01:06 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:01:06 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:06 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:06 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:01:06 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:01:06 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:01:07 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:08 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:08 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:01:08 INFO  [main] LoginTest - Username: [error_user]
+2026-07-19 16:01:08 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:01:08 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:01:08 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:01:08 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:01:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:01:08 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-19 16:01:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:01:08 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:01:08 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:01:08 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:01:08 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:01:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:01:08 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:01:08 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:01:08 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:08 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:08 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:01:08 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:01:08 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:01:10 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:10 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:10 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:01:10 INFO  [main] LoginTest - Username: [visual_user]
+2026-07-19 16:01:10 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:01:10 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:01:10 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:01:10 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:01:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:01:11 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-19 16:01:11 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:01:11 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:01:11 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:01:11 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:01:11 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:01:11 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:01:11 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:01:11 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:01:11 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:12 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:12 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:01:12 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:01:12 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:01:13 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:16 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:16 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:01:16 INFO  [main] LoginTest - Username: [invalid_user]
+2026-07-19 16:01:16 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:01:16 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:01:16 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:01:16 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:01:16 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:01:16 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-19 16:01:16 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:01:17 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:01:17 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:01:17 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:01:17 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:01:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:17 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:01:17 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:01:17 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:01:17 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:01:17 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:17 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:17 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:01:17 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:01:17 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:01:18 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:19 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:19 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:01:19 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:01:19 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:01:19 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:01:19 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:01:19 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:01:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:01:19 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:01:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:01:19 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-19 16:01:19 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:01:19 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:01:19 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:01:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:20 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:01:20 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:01:20 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:01:20 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:01:20 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:20 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:20 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:01:20 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:01:20 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:01:21 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:22 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:22 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:01:22 INFO  [main] LoginTest - Username: []
+2026-07-19 16:01:22 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:01:22 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:01:22 INFO  [main] LoginTest - Expected Message: Epic sadface: Username is required
+2026-07-19 16:01:22 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:01:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:01:22 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-19 16:01:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:01:22 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:01:22 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:01:22 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:01:22 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:01:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:22 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username is required
+2026-07-19 16:01:22 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username is required
+2026-07-19 16:01:22 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:01:22 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:01:22 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:23 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:23 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:01:23 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:01:23 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:01:24 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:25 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:25 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:01:25 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:01:25 INFO  [main] LoginTest - Password: [<EMPTY>]
+2026-07-19 16:01:25 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:01:25 INFO  [main] LoginTest - Expected Message: Epic sadface: Password is required
+2026-07-19 16:01:25 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:01:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:01:25 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:01:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:01:25 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-19 16:01:25 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:01:25 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:01:25 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:01:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:01:25 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Password is required
+2026-07-19 16:01:25 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Password is required
+2026-07-19 16:01:25 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:01:25 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:01:25 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:25 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:25 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:01:25 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:01:25 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:01:26 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:01:27 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:01:27 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:01:27 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:01:27 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:25 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-07-19 16:02:26 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 16:02:26 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 16:02:26 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 16:02:26 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 16:02:26 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 16:02:26 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:26 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:28 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:29 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:29 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:29 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:02:29 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:29 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:02:29 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:02:29 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:29 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:02:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:30 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:30 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:30 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:30 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:02:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:02:30 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:02:30 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:30 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:30 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:30 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:30 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:30 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:31 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:32 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:32 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:32 INFO  [main] LoginTest - Username: [locked_out_user]
+2026-07-19 16:02:32 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:32 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:02:32 INFO  [main] LoginTest - Expected Message: Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:02:32 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:32 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-19 16:02:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:32 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:32 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:32 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:32 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:02:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:32 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:02:32 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:02:32 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:02:32 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:32 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:33 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:33 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:33 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:33 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:34 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:35 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:35 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:35 INFO  [main] LoginTest - Username: [problem_user]
+2026-07-19 16:02:35 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:35 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:02:35 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:02:35 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:35 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-19 16:02:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:35 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:35 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:35 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:35 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:02:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:02:35 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:02:35 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:35 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:35 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:35 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:35 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:35 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:36 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:37 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:37 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:37 INFO  [main] LoginTest - Username: [performance_glitch_user]
+2026-07-19 16:02:37 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:37 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:02:37 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:02:37 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:37 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:38 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-19 16:02:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:38 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:38 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:43 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:43 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:02:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:02:43 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:02:43 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:43 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:43 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:43 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:43 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:43 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:44 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:45 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:45 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:45 INFO  [main] LoginTest - Username: [error_user]
+2026-07-19 16:02:45 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:45 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:02:45 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:02:45 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:45 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-19 16:02:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:45 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:45 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:45 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:45 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:02:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:02:46 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:02:46 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:46 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:46 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:46 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:46 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:46 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:47 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:48 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:48 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:48 INFO  [main] LoginTest - Username: [visual_user]
+2026-07-19 16:02:48 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:48 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:02:48 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:02:48 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:48 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-19 16:02:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:48 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:48 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:48 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:48 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:02:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:02:48 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:02:48 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:48 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:48 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:48 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:48 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:48 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:50 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:50 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:50 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:50 INFO  [main] LoginTest - Username: [invalid_user]
+2026-07-19 16:02:50 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:50 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:02:50 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:02:50 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:50 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-19 16:02:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:51 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:51 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:51 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:51 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:02:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:51 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:02:51 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:02:51 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:02:51 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:51 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:51 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:51 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:51 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:51 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:52 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:53 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:53 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:53 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:02:53 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:53 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:02:53 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:02:53 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:53 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:02:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:53 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-19 16:02:53 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:53 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:53 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:02:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:53 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:02:53 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:02:53 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:02:53 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:53 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:54 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:54 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:54 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:54 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:55 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:56 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:56 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:56 INFO  [main] LoginTest - Username: []
+2026-07-19 16:02:56 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:02:56 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:02:56 INFO  [main] LoginTest - Expected Message: Epic sadface: Username is required
+2026-07-19 16:02:56 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:56 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-19 16:02:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:56 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:02:56 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:56 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:56 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:02:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:56 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username is required
+2026-07-19 16:02:56 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username is required
+2026-07-19 16:02:56 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:02:56 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:56 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:57 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:57 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:02:57 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:02:57 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:02:58 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:02:59 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:02:59 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:02:59 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:02:59 INFO  [main] LoginTest - Password: [<EMPTY>]
+2026-07-19 16:02:59 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:02:59 INFO  [main] LoginTest - Expected Message: Epic sadface: Password is required
+2026-07-19 16:02:59 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:02:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:02:59 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:02:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:02:59 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-19 16:02:59 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:02:59 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:02:59 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:02:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:02:59 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Password is required
+2026-07-19 16:02:59 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Password is required
+2026-07-19 16:02:59 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:02:59 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:02:59 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:02:59 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:02:59 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:16 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 16:36:16 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 16:36:16 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 16:36:16 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 16:36:16 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 16:36:16 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:16 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:18 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:19 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:19 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:19 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:36:19 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:19 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:36:19 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:36:19 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:19 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:36:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:19 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:19 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:20 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:20 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:36:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:36:20 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:36:20 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:20 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:20 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:20 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:20 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:20 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:21 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:22 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:22 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:22 INFO  [main] LoginTest - Username: [locked_out_user]
+2026-07-19 16:36:22 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:22 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:36:22 INFO  [main] LoginTest - Expected Message: Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:36:22 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:22 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-19 16:36:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:22 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:22 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:22 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:22 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:36:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:22 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:36:22 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Sorry, this user has been locked out.
+2026-07-19 16:36:22 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:36:22 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:22 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:23 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:23 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:23 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:23 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:24 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:24 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:24 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:24 INFO  [main] LoginTest - Username: [problem_user]
+2026-07-19 16:36:24 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:24 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:36:24 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:36:24 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:25 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-19 16:36:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:25 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:25 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:25 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:25 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:36:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:36:25 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:36:25 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:25 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:25 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:25 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:25 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:25 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:26 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:27 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:27 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:27 INFO  [main] LoginTest - Username: [performance_glitch_user]
+2026-07-19 16:36:27 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:27 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:36:27 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:36:27 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:27 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-19 16:36:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:27 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:27 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:32 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:32 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:36:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:36:32 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:36:32 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:32 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:33 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:33 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:33 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:33 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:34 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:35 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:35 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:35 INFO  [main] LoginTest - Username: [error_user]
+2026-07-19 16:36:35 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:35 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:36:35 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:36:35 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:35 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-19 16:36:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:35 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:35 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:35 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:35 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:36:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:36:35 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:36:35 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:35 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:35 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:35 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:35 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:35 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:36 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:37 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:37 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:37 INFO  [main] LoginTest - Username: [visual_user]
+2026-07-19 16:36:37 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:37 INFO  [main] LoginTest - Expected Result: SUCCESS
+2026-07-19 16:36:37 INFO  [main] LoginTest - Expected Message: 
+2026-07-19 16:36:37 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:37 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:37 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-19 16:36:37 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:38 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:38 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:38 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:38 INFO  [main] LoginTest - Verifying successful login...
+2026-07-19 16:36:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 16:36:38 INFO  [main] LoginTest - Login successful. Products page displayed.
+2026-07-19 16:36:38 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:38 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:38 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:38 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:38 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:38 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:39 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:40 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:40 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:40 INFO  [main] LoginTest - Username: [invalid_user]
+2026-07-19 16:36:40 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:40 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:36:40 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:36:40 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:40 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-19 16:36:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:40 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:40 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:40 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:40 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:36:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:40 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:36:40 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:36:40 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:36:40 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:40 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:40 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:40 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:40 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:40 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:42 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:42 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:42 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:42 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:36:42 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:42 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:36:42 INFO  [main] LoginTest - Expected Message: Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:36:42 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:42 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:43 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:36:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:43 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-19 16:36:43 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:43 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:43 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:36:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:43 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:36:43 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username and password do not match any user in this service
+2026-07-19 16:36:43 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:36:43 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:43 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:43 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:43 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:43 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:43 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:44 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:45 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:45 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:45 INFO  [main] LoginTest - Username: []
+2026-07-19 16:36:45 INFO  [main] LoginTest - Password: [******]
+2026-07-19 16:36:45 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:36:45 INFO  [main] LoginTest - Expected Message: Epic sadface: Username is required
+2026-07-19 16:36:45 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:45 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-19 16:36:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:45 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 16:36:45 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:45 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:45 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:36:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:46 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Username is required
+2026-07-19 16:36:46 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Username is required
+2026-07-19 16:36:46 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:36:46 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:46 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:46 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:46 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:46 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:46 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:47 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:48 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:48 INFO  [main] LoginTest - ========== Login Test Started ==========
+2026-07-19 16:36:48 INFO  [main] LoginTest - Username: [standard_user]
+2026-07-19 16:36:48 INFO  [main] LoginTest - Password: [<EMPTY>]
+2026-07-19 16:36:48 INFO  [main] LoginTest - Expected Result: FAILURE
+2026-07-19 16:36:48 INFO  [main] LoginTest - Expected Message: Epic sadface: Password is required
+2026-07-19 16:36:48 INFO  [main] LoginTest - Attempting login...
+2026-07-19 16:36:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 16:36:48 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 16:36:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 16:36:48 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-19 16:36:48 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 16:36:48 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 16:36:48 INFO  [main] LoginTest - Verifying failed login...
+2026-07-19 16:36:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 16:36:49 INFO  [main] LoginTest - Actual Error Message   : Epic sadface: Password is required
+2026-07-19 16:36:49 INFO  [main] LoginTest - Expected Error Message : Epic sadface: Password is required
+2026-07-19 16:36:49 INFO  [main] LoginTest - Error message verified successfully.
+2026-07-19 16:36:49 INFO  [main] LoginTest - ========== Login Test Completed ==========
+2026-07-19 16:36:49 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:49 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:49 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:36:49 INFO  [main] BaseTest - ========== Test Execution Started ==========
+2026-07-19 16:36:49 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 16:36:50 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 16:36:52 INFO  [main] BaseTest - Application launched successfully.
+2026-07-19 16:36:52 INFO  [main] BaseTest - Closing browser...
+2026-07-19 16:36:52 INFO  [main] BaseTest - Browser closed successfully.
+2026-07-19 16:36:52 INFO  [main] BaseTest - ========== Test Execution Finished ==========
+2026-07-19 16:44:48 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 16:44:48 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 16:44:48 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 16:44:48 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 16:44:48 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 17:42:19 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 17:42:19 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 17:42:19 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 17:42:19 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 17:42:19 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 17:42:20 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:23 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:24 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 17:42:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:24 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:24 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:25 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:42:25 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:25 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:26 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:27 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-19 17:42:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:27 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:27 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:27 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:27 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:27 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:28 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:30 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-19 17:42:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:30 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:30 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:30 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:42:30 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:31 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:32 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:33 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-19 17:42:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:33 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:33 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:38 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:42:38 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:38 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:39 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:40 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-19 17:42:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:40 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:40 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:41 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:42:41 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:41 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:42 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:43 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-19 17:42:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:43 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:43 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:43 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:42:43 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:43 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:44 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:45 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-19 17:42:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:45 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:45 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:46 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:46 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:46 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:46 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:46 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:47 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:48 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 17:42:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:48 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-19 17:42:48 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:48 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:48 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:49 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:50 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:51 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-19 17:42:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:51 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:42:51 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:51 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:51 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:51 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:52 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:42:53 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 17:42:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:42:53 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-19 17:42:53 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:42:53 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:42:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:42:54 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:42:54 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:42:55 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:42:56 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:44:39 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-19 17:44:39 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-19 17:44:39 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-19 17:44:39 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-19 17:44:40 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-19 17:44:40 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:44:41 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:44:42 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:44:42 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 17:44:42 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:44:43 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:44:43 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:44:43 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:44:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:44:43 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:44:43 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:44:44 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:44:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:44:45 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-19 17:44:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:44:45 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:44:45 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:44:45 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:44:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:44:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:44:45 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:44:45 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:44:46 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:44:47 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:44:47 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-19 17:44:47 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:44:47 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:44:47 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:44:48 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:44:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:44:48 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:44:48 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:44:49 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:44:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:44:50 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-19 17:44:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:44:50 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:44:50 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:44:55 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:44:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:44:55 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:44:55 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:44:56 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:44:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:44:57 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-19 17:44:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:44:57 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:44:57 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:44:58 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:44:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:44:58 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:44:58 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:44:59 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:45:00 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:45:00 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-19 17:45:00 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:45:00 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:45:00 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:45:00 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:45:00 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-19 17:45:00 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:45:00 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:45:01 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:45:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:45:02 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-19 17:45:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:45:02 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:45:02 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:45:03 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:45:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:03 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:45:03 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:45:04 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:45:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:45:05 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 17:45:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:45:05 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-19 17:45:05 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:45:05 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:45:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:05 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:45:06 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:45:07 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:45:07 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:45:08 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-19 17:45:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:45:08 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-19 17:45:08 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:45:08 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:45:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:08 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:45:08 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:45:09 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:45:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-19 17:45:10 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-19 17:45:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-19 17:45:10 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-19 17:45:10 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-19 17:45:10 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-19 17:45:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-19 17:45:10 INFO  [main] BaseTest - Closing browser...
+2026-07-19 17:45:11 INFO  [main] BaseTest - Initializing browser...
+2026-07-19 17:45:12 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-19 17:45:13 INFO  [main] BaseTest - Closing browser...

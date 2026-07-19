@@ -4,6 +4,7 @@ import com.akshay.base.BaseTest;
 import com.akshay.dataProvider.TestDataProvider;
 import com.akshay.pages.LoginPage;
 import com.akshay.pages.ProductsPage;
+import com.akshay.reporting.ExtentTestManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -19,46 +20,46 @@ public class LoginTest extends BaseTest {
                             String expectedResult,
                             String expectedMessage) {
 
-        logger.info("========== Login Test Started ==========");
-        logger.info("Username: [{}]", username);
-        logger.info("Password: [{}]", password.isEmpty() ? "<EMPTY>" : "******");
-        logger.info("Expected Result: {}", expectedResult);
-        logger.info("Expected Message: {}", expectedMessage);
+        ExtentTestManager.getTest().info("========== Login Test Started ==========");
+        ExtentTestManager.getTest().info("Username: " +username);
+        ExtentTestManager.getTest()
+                .info("Password: " + (password.isEmpty() ? "<EMPTY>" : "******"));
+        ExtentTestManager.getTest().info("Expected Result: " +expectedResult);
+        ExtentTestManager.getTest().info("Expected Message: " +expectedMessage);
 
         LoginPage loginPage = new LoginPage(driver);
 
-        logger.info("Attempting login...");
+        ExtentTestManager.getTest().info("Attempting login...");
         loginPage.login(username, password);
 
         if ("SUCCESS".equalsIgnoreCase(expectedResult)) {
 
-            logger.info("Verifying successful login...");
+            ExtentTestManager.getTest().info("Verifying successful login...");
 
             ProductsPage productsPage = new ProductsPage(driver);
 
             Assert.assertTrue(productsPage.isProductsPageDisplayed(),
                     "Products page is not displayed after successful login.");
 
-            logger.info("Login successful. Products page displayed.");
+            ExtentTestManager.getTest().info("Login successful. Products page displayed.");
 
         } else {
 
-            logger.info("Verifying failed login...");
+            ExtentTestManager.getTest().info("Verifying failed login...");
 
             Assert.assertTrue(loginPage.isErrorDisplayed(),
                     "Expected error message is not displayed.");
 
             String actualMessage = loginPage.getErrorMessage();
 
-            logger.info("Actual Error Message   : {}", actualMessage);
-            logger.info("Expected Error Message : {}", expectedMessage);
+            ExtentTestManager.getTest().info("Actual Error Message   : " +actualMessage);
+            ExtentTestManager.getTest().info("Expected Error Message : " +expectedMessage);
 
-            Assert.assertEquals(actualMessage, expectedMessage,
-                    "Error message mismatch.");
+            Assert.assertEquals(actualMessage, expectedMessage, "Error message mismatch.");
 
-            logger.info("Error message verified successfully.");
+            ExtentTestManager.getTest().info("Error message verified successfully.");
         }
 
-        logger.info("========== Login Test Completed ==========");
+        ExtentTestManager.getTest().info("========== Login Test Completed ==========");
     }
 }
