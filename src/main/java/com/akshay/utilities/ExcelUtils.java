@@ -108,20 +108,44 @@ public class ExcelUtils {
      * @param sheetName Excel sheet name
      * @return Object[][]
      */
-    public static Object[][] getTestData(String fileName,String sheetName) {
+    public static Object[][] getTestData(String fileName, String sheetName) {
 
-        int rowCount = getRowCount(fileName, sheetName);
-        int columnCount = getColumnCount(fileName, sheetName);
+        Sheet sheet = getSheet(fileName, sheetName);
 
-        // Skip first column (Sr.No)
+        int rowCount = sheet.getLastRowNum();
+        int columnCount = sheet.getRow(0).getLastCellNum();
+
+        // Skip Sr.No column
         Object[][] data = new Object[rowCount][columnCount - 1];
+
+        DataFormatter formatter = new DataFormatter();
 
         for (int row = 1; row <= rowCount; row++) {
 
+            Row currentRow = sheet.getRow(row);
+
+            if (currentRow == null) {
+                logger.warn("Row {} not found in sheet '{}'.", row, sheetName);
+                continue;
+            }
+
             for (int column = 1; column < columnCount; column++) {
 
-                data[row - 1][column - 1] =
-                        getCellData(fileName, sheetName, row, column);
+                Cell cell = currentRow.getCell(column);
+
+                if (cell == null) {
+                    logger.warn(
+                            "Cell {} not found in row {} of sheet '{}'.",
+                            column,
+                            row,
+                            sheetName
+                    );
+
+                    data[row - 1][column - 1] = "";
+                } else {
+                    data[row - 1][column - 1] =
+                            formatter.formatCellValue(cell);
+                }
             }
         }
 
