@@ -2680,3 +2680,1050 @@
 2026-07-19 17:45:11 INFO  [main] BaseTest - Initializing browser...
 2026-07-19 17:45:12 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
 2026-07-19 17:45:13 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:06:41 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:06:44 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:06:45 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:25 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-07-25 21:08:26 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-07-25 21:08:26 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-07-25 21:08:26 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-07-25 21:08:26 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-07-25 21:08:26 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-07-25 21:08:27 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:28 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:29 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-25 21:08:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:29 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:29 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:30 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-25 21:08:30 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:30 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:31 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:32 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-07-25 21:08:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:32 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:32 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:32 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:32 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:32 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:33 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:34 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-07-25 21:08:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:34 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:34 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:34 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-25 21:08:34 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:35 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:36 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:37 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-07-25 21:08:37 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:37 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:37 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:42 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:42 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-25 21:08:42 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:42 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:43 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:44 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:44 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-07-25 21:08:44 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:44 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:44 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:44 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:44 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-25 21:08:44 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:45 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:46 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:46 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:46 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-07-25 21:08:46 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:47 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:47 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:47 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:47 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-07-25 21:08:47 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:47 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:48 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:49 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-07-25 21:08:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:49 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:49 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:49 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:49 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:49 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:50 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:51 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-25 21:08:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:51 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-07-25 21:08:51 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:51 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:52 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:52 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:52 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:53 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:54 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-07-25 21:08:54 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:54 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-07-25 21:08:54 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:54 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:54 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:54 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:54 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:08:54 INFO  [main] BaseTest - Initializing browser...
+2026-07-25 21:08:55 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-07-25 21:08:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-07-25 21:08:56 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-07-25 21:08:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-07-25 21:08:56 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-07-25 21:08:56 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-07-25 21:08:56 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-07-25 21:08:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-07-25 21:08:56 INFO  [main] BaseTest - Closing browser...
+2026-07-25 21:19:43 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-07-25 21:20:34 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-07-25 21:22:42 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-07-25 21:26:47 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-09-02 11:07:20 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-09-02 11:14:56 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 11:14:57 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 11:14:57 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 11:14:57 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 11:14:57 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 11:14:57 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:09 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:10 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:15:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:10 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:10 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:11 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:11 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:15:11 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:11 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:12 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:13 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 11:15:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:13 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:13 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:13 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:13 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:13 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:14 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:15 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 11:15:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:15 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:15 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:15 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:15:15 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:16 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:17 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:18 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 11:15:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:18 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:18 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:23 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:23 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:15:23 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:23 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:24 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:25 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 11:15:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:25 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:25 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:25 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:15:25 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:25 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:26 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:27 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 11:15:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:27 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:27 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:27 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:15:27 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:28 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:29 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:29 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 11:15:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:29 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:29 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:29 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:29 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:30 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:31 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:31 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:32 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:15:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:32 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 11:15:32 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:32 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:32 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:32 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:33 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:34 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 11:15:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:34 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:15:34 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:34 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:34 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:34 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:35 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:15:36 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:15:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:15:36 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 11:15:36 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:15:36 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:15:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:15:36 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:15:36 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:15:37 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:15:38 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:16 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 11:24:16 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 11:24:16 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 11:24:17 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 11:24:17 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 11:24:17 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:18 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:19 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:24:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:20 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:20 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:20 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:24:20 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:20 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:21 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:22 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 11:24:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:22 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:22 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:22 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:22 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:22 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:23 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:24 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 11:24:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:24 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:24 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:24 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:24:24 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:24 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:26 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:26 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:26 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 11:24:26 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:26 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:26 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:31 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:31 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:24:31 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:32 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:33 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:34 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 11:24:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:34 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:34 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:34 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:24:34 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:34 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:35 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:36 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 11:24:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:36 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:36 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:36 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:24:36 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:36 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:38 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:38 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 11:24:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:38 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:38 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:39 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:39 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:39 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:39 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:39 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:40 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:41 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:24:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:41 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 11:24:41 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:41 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:41 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:41 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:42 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:43 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 11:24:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:43 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:24:43 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:43 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:43 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:43 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:44 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:24:45 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:24:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:24:45 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 11:24:45 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:24:45 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:24:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:24:45 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:24:46 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:24:47 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:24:47 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:08 INFO  [main] Utils - [TestNG] Running:
+  C:\Users\rnsak\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-09-02 11:44:09 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 11:44:09 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 11:44:09 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 11:44:09 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 11:44:10 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 11:44:10 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:12 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:12 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:12 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:44:12 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:13 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:13 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:13 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:44:13 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:13 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:14 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:15 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 11:44:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:15 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:15 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:15 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:15 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:15 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:16 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:17 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 11:44:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:17 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:17 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:17 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:44:17 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:18 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:19 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:19 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 11:44:19 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:19 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:19 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:24 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:24 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:44:25 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:25 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:26 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:27 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 11:44:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:27 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:27 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:27 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:44:27 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:27 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:28 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:29 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 11:44:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:29 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:29 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:29 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:44:29 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:30 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:31 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:31 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:31 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 11:44:31 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:31 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:31 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:31 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:31 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:32 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:32 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:32 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:33 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:33 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:44:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:34 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 11:44:34 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:34 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:34 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:34 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:34 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:35 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:36 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 11:44:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:36 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:44:36 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:36 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:36 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:44:36 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:44:37 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:44:37 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:44:38 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:44:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:44:38 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 11:44:38 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:44:38 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:44:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:44:38 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:01 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 11:48:01 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 11:48:01 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 11:48:01 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 11:48:01 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 11:48:01 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:02 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:03 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:48:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:04 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:04 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:04 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:04 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:48:04 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:04 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:05 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:06 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 11:48:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:06 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:06 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:06 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:06 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:06 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:07 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:08 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 11:48:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:08 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:08 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:08 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:48:08 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:09 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:10 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:10 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 11:48:10 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:11 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:11 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:16 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:16 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:48:16 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:16 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:17 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:18 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 11:48:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:18 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:18 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:18 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:48:18 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:18 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:19 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:20 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 11:48:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:20 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:20 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:20 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:48:20 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:21 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:22 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:22 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 11:48:22 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:23 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:23 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:23 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:23 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:23 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:23 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:23 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:24 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:25 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:48:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:25 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 11:48:25 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:25 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:25 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:25 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:25 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:26 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:27 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 11:48:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:27 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:48:27 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:27 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:27 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:27 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:27 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:28 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:48:29 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:48:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:48:29 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 11:48:29 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:48:29 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:48:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:29 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:48:29 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:48:29 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:48:30 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:48:31 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:51:39 INFO  [main] LoginTest - Starting test: Verify GET single user API
+2026-09-02 11:51:39 INFO  [main] LoginTest - Sending GET request to endpoint: USERS
+2026-09-02 11:51:41 INFO  [main] LoginTest - Received response with status code: 200
+2026-09-02 11:51:41 INFO  [main] LoginTest - GET single user API validation completed successfully
+2026-09-02 11:51:42 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 11:51:42 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 11:51:42 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 11:51:42 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 11:51:42 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 11:51:42 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:51:43 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:51:44 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:51:44 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:51:44 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:51:44 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:51:44 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:51:44 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:51:44 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:51:44 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:51:45 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:51:46 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:51:46 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:51:46 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 11:51:46 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:51:47 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:51:47 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:51:47 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:51:47 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:51:47 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:51:47 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:51:47 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:51:48 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:51:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:51:49 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 11:51:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:51:49 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:51:49 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:51:49 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:51:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:51:49 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:51:49 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:51:50 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:51:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:51:51 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 11:51:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:51:51 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:51:51 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:51:56 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:51:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:51:56 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:51:57 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:51:58 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:51:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:51:58 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 11:51:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:51:59 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:51:59 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:51:59 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:51:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:51:59 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:51:59 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:52:00 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:52:01 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:52:01 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 11:52:01 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:52:01 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:52:01 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:52:01 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:52:01 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:52:01 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:52:01 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:52:02 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:52:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:52:03 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 11:52:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:52:03 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:52:03 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:52:03 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:52:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:04 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:04 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:52:04 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:52:05 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:52:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:52:06 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:52:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:52:06 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 11:52:06 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:52:06 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:52:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:06 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:52:06 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:52:07 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:52:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:52:08 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 11:52:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:52:08 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:52:08 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:52:08 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:52:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:08 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:08 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:52:08 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:52:09 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:52:14 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:52:15 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:52:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:52:15 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 11:52:15 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:52:15 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:52:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:52:15 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:52:15 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:52:16 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:52:17 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:31 INFO  [main] LoginTest - Starting test: Verify GET single user API
+2026-09-02 11:57:31 INFO  [main] LoginTest - Sending GET request to endpoint: USERS
+2026-09-02 11:57:33 INFO  [main] LoginTest - Received response with status code: 200
+2026-09-02 11:57:33 INFO  [main] LoginTest - GET single user API validation completed successfully
+2026-09-02 11:57:34 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 11:57:34 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 11:57:34 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 11:57:34 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 11:57:34 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 11:57:34 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:35 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:36 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:57:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:36 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:57:36 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:36 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:36 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:57:37 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:37 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:38 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:39 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:39 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 11:57:39 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:39 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:57:39 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:39 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:39 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:57:39 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:57:39 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:39 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:40 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:41 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 11:57:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:41 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:57:41 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:41 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:57:41 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:42 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:43 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:43 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 11:57:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:43 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:57:43 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:49 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:57:49 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:49 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:50 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:51 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 11:57:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:51 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:57:51 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:51 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:51 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:57:51 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:51 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:52 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:53 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 11:57:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:53 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:57:53 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:53 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:53 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:57:53 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:53 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:54 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:55 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 11:57:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:55 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:57:55 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:55 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:57:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:57:55 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:56 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:57 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:57 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:57:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:57:57 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 11:57:57 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:57:57 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:57:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:57:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:57:58 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:57:58 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:57:59 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:57:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:57:59 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 11:57:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:58:00 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:58:00 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:58:00 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:58:00 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:58:00 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:58:00 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:58:00 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:58:01 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:58:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:58:02 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:58:02 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:58:02 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 11:58:02 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:58:03 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:58:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:58:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:58:03 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:58:03 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:58:04 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:58:05 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:25 INFO  [main] GetUserTest - Starting test: Verify GET users API
+2026-09-02 11:59:25 INFO  [main] GetUserTest - Sending GET request to endpoint: USERS
+2026-09-02 11:59:27 INFO  [main] GetUserTest - Received response with status code: 200
+2026-09-02 11:59:27 INFO  [main] GetUserTest - GET users API validation completed successfully
+2026-09-02 11:59:28 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 11:59:28 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 11:59:28 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 11:59:28 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 11:59:28 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 11:59:28 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:29 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:30 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:59:30 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:30 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:30 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:31 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:31 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:59:31 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:31 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:32 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:33 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 11:59:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:33 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:33 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:33 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:33 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:33 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:33 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:34 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:35 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 11:59:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:35 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:35 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:35 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:35 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:59:35 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:36 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:37 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:37 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:38 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 11:59:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:38 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:38 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:43 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:43 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:59:43 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:43 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:44 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:45 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 11:59:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:45 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:45 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:45 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:45 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:59:45 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:45 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:47 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:47 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:47 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 11:59:47 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:47 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:47 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:48 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:48 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 11:59:48 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:48 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:49 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:49 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:50 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 11:59:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:50 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:50 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:50 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:50 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:50 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:50 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:51 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:52 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:52 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:59:52 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:52 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 11:59:52 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:52 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:52 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:52 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:52 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:52 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:54 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:54 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:54 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 11:59:54 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:54 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 11:59:54 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:54 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:54 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:55 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:55 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:55 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:56 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:56 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 11:59:57 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 11:59:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 11:59:57 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 11:59:57 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 11:59:57 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 11:59:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:57 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 11:59:57 INFO  [main] BaseTest - Closing browser...
+2026-09-02 11:59:57 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 11:59:58 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 11:59:59 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:02:56 WARN  [main] ExcelUtils - Cell 4 not found in row 1 of sheet 'Login'.
+2026-09-02 12:02:56 WARN  [main] ExcelUtils - Cell 4 not found in row 3 of sheet 'Login'.
+2026-09-02 12:02:56 WARN  [main] ExcelUtils - Cell 4 not found in row 4 of sheet 'Login'.
+2026-09-02 12:02:56 WARN  [main] ExcelUtils - Cell 4 not found in row 5 of sheet 'Login'.
+2026-09-02 12:02:56 WARN  [main] ExcelUtils - Cell 4 not found in row 6 of sheet 'Login'.
+2026-09-02 12:02:56 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:02:57 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:02:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:02:58 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 12:02:58 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:02:58 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:02:58 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:02:59 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:02:59 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 12:02:59 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:02:59 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:00 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:01 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:01 INFO  [main] ElementActions - Entered text 'locked_out_user' into element: By.id: user-name
+2026-09-02 12:03:01 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:01 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:03:01 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:01 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:01 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:01 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:01 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:01 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:02 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:03 INFO  [main] ElementActions - Entered text 'problem_user' into element: By.id: user-name
+2026-09-02 12:03:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:03 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:03:03 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:03 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:03 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 12:03:03 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:04 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:05 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:05 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:06 INFO  [main] ElementActions - Entered text 'performance_glitch_user' into element: By.id: user-name
+2026-09-02 12:03:06 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:06 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:03:06 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:11 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:11 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 12:03:11 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:11 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:12 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:13 INFO  [main] ElementActions - Entered text 'error_user' into element: By.id: user-name
+2026-09-02 12:03:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:13 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:03:13 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:13 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:13 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 12:03:13 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:13 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:14 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:15 INFO  [main] ElementActions - Entered text 'visual_user' into element: By.id: user-name
+2026-09-02 12:03:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:15 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:03:15 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:15 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:15 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: .title
+2026-09-02 12:03:15 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:16 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:17 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:17 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:18 INFO  [main] ElementActions - Entered text 'invalid_user' into element: By.id: user-name
+2026-09-02 12:03:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:18 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:03:18 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:18 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:18 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:18 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:18 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:19 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:20 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 12:03:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:20 INFO  [main] ElementActions - Entered text 'wrong_password' into element: By.id: password
+2026-09-02 12:03:20 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:20 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:20 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:20 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:21 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:22 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:38 INFO  [main] ElementActions - Entered text '' into element: By.id: user-name
+2026-09-02 12:03:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:38 INFO  [main] ElementActions - Entered text 'secret_sauce' into element: By.id: password
+2026-09-02 12:03:38 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:38 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:38 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:38 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:38 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:40 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: user-name
+2026-09-02 12:03:40 INFO  [main] ElementActions - Entered text 'standard_user' into element: By.id: user-name
+2026-09-02 12:03:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.id: password
+2026-09-02 12:03:40 INFO  [main] ElementActions - Entered text '' into element: By.id: password
+2026-09-02 12:03:40 INFO  [main] WaitUtils - Waiting for element to be clickable: By.id: login-button
+2026-09-02 12:03:40 INFO  [main] ElementActions - Clicked on element: By.id: login-button
+2026-09-02 12:03:40 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:41 INFO  [main] WaitUtils - Waiting for visibility of element: By.cssSelector: h3[data-test='error']
+2026-09-02 12:03:41 INFO  [main] BaseTest - Closing browser...
+2026-09-02 12:03:41 INFO  [main] BaseTest - Initializing browser...
+2026-09-02 12:03:42 INFO  [main] BaseTest - Navigating to URL: https://www.saucedemo.com/
+2026-09-02 12:03:42 INFO  [main] BaseTest - Closing browser...
