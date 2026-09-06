@@ -10,7 +10,7 @@ on:
       - main
       - master
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7/15 * * * *'
   workflow_dispatch:
     inputs:
       environment:
