@@ -6,7 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.time.Duration;
 
@@ -42,10 +44,10 @@ public final class DriverFactory {
                 return new ChromeDriver(getChromeOptions());
 
             case "firefox":
-                return new FirefoxDriver();
+                return new FirefoxDriver(getFirefoxOptions());
 
             case "edge":
-                return new EdgeDriver();
+                return new EdgeDriver(getEdgeOptions());
 
             default:
                 throw new IllegalArgumentException(
@@ -66,12 +68,39 @@ public final class DriverFactory {
 
         ChromeOptions options = new ChromeOptions();
 
-        if (Boolean.parseBoolean(ConfigReader.getProperty("headless"))) {
+        if (isHeadless()) {
             options.addArguments("--headless=new");
             options.addArguments("--window-size=1920,1080");
         }
 
         return options;
+    }
+
+    private static FirefoxOptions getFirefoxOptions() {
+
+        FirefoxOptions options = new FirefoxOptions();
+
+        if (isHeadless()) {
+            options.addArguments("-headless");
+        }
+
+        return options;
+    }
+
+    private static EdgeOptions getEdgeOptions() {
+
+        EdgeOptions options = new EdgeOptions();
+
+        if (isHeadless()) {
+            options.addArguments("--headless=new");
+            options.addArguments("--window-size=1920,1080");
+        }
+
+        return options;
+    }
+
+    private static boolean isHeadless() {
+        return Boolean.parseBoolean(ConfigReader.getProperty("headless"));
     }
 
     private static long getImplicitWait() {

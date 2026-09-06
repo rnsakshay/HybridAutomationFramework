@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hybrid Automation Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.akshay.listeners.TestListener"/>
+    </listeners>
+
+    <test name="API Smoke Tests">
+        <classes>
+            <class name="com.akshay.api.smoke.GetUserTest"/>
+        </classes>
+    </test>
+
+    <test name="UI Tests">
+        <classes>
+            <class name="com.akshay.ui.smoke.SmokeTest"/>
+            <class name="com.akshay.ui.functional.LoginTest"/>
+        </classes>
+    </test>
+</suite>

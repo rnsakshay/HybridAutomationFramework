@@ -8,10 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import com.akshay.listeners.TestListener;
-import org.testng.annotations.Listeners;
 
-@Listeners(TestListener.class)
 public class BaseTest {
 
     private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);

@@ -13,10 +13,6 @@ public class ExcelUtils {
     private static final Logger logger =
             LoggerFactory.getLogger(ExcelUtils.class);
 
-    private static Workbook workbook;
-    private static Sheet sheet;
-
-
     private ExcelUtils() {
         // Prevent instantiation
     }
@@ -26,13 +22,11 @@ public class ExcelUtils {
      *
      * @param filePath Excel file path
      */
-    private static Workbook getWorkbook(String filePath) {
+    private static Workbook openWorkbook(String filePath) {
 
         try {
 
-            FileInputStream fis = new FileInputStream(filePath);
-
-            return new XSSFWorkbook(fis);
+            return new XSSFWorkbook(new FileInputStream(filePath));
 
         } catch (IOException e) {
 
@@ -45,11 +39,9 @@ public class ExcelUtils {
     /**
      * Returns sheet object.
      */
-    private static Sheet getSheet(String filePath, String sheetName) {
+    private static Sheet getSheet(Workbook workbook, String sheetName) {
 
-        workbook = getWorkbook(filePath);
-
-        sheet = workbook.getSheet(sheetName);
+        Sheet sheet = workbook.getSheet(sheetName);
 
         if (sheet == null) {
             logger.error("Sheet '{}' not found.", sheetName);
@@ -63,16 +55,24 @@ public class ExcelUtils {
      * Returns total number of data rows.
      */
     public static int getRowCount(String filePath, String sheetName) {
-        Sheet sheet = getSheet(filePath, sheetName);
-        return sheet.getLastRowNum();
+        try (Workbook workbook = openWorkbook(filePath)) {
+            Sheet sheet = getSheet(workbook, sheetName);
+            return sheet.getLastRowNum();
+        } catch (IOException e) {
+            throw new RuntimeException("Unable to close excel workbook.", e);
+        }
     }
 
     /**
      * Returns total columns.
      */
     public static int getColumnCount(String filePath, String sheetName) {
-        Sheet sheet = getSheet(filePath, sheetName);
-        return sheet.getRow(0).getLastCellNum();
+        try (Workbook workbook = openWorkbook(filePath)) {
+            Sheet sheet = getSheet(workbook, sheetName);
+            return sheet.getRow(0).getLastCellNum();
+        } catch (IOException e) {
+            throw new RuntimeException("Unable to close excel workbook.", e);
+        }
     }
 
     /**
@@ -80,26 +80,30 @@ public class ExcelUtils {
      */
     public static String getCellData(String filePath, String sheetName, int rowNumber, int columnNumber) {
 
-        Sheet sheet = getSheet(filePath, sheetName);
+        try (Workbook workbook = openWorkbook(filePath)) {
+            Sheet sheet = getSheet(workbook, sheetName);
 
-        DataFormatter formatter = new DataFormatter();
+            DataFormatter formatter = new DataFormatter();
 
-        Row row = sheet.getRow(rowNumber);
+            Row row = sheet.getRow(rowNumber);
 
-        if (row == null) {
-            logger.warn("Row {} not found in sheet '{}'.", rowNumber, sheetName);
-            return "";
+            if (row == null) {
+                logger.warn("Row {} not found in sheet '{}'.", rowNumber, sheetName);
+                return "";
+            }
+
+            Cell cell = row.getCell(columnNumber);
+
+            if (cell == null) {
+                logger.warn("Cell {} not found in row {} of sheet '{}'.",
+                        columnNumber, rowNumber, sheetName);
+                return "";
+            }
+
+            return formatter.formatCellValue(cell);
+        } catch (IOException e) {
+            throw new RuntimeException("Unable to close excel workbook.", e);
         }
-
-        Cell cell = row.getCell(columnNumber);
-
-        if (cell == null) {
-            logger.warn("Cell {} not found in row {} of sheet '{}'.",
-                    columnNumber, rowNumber, sheetName);
-            return "";
-        }
-
-        return formatter.formatCellValue(cell);
     }
 
     /**
@@ -110,45 +114,49 @@ public class ExcelUtils {
      */
     public static Object[][] getTestData(String fileName, String sheetName) {
 
-        Sheet sheet = getSheet(fileName, sheetName);
+        try (Workbook workbook = openWorkbook(fileName)) {
+            Sheet sheet = getSheet(workbook, sheetName);
 
-        int rowCount = sheet.getLastRowNum();
-        int columnCount = sheet.getRow(0).getLastCellNum();
+            int rowCount = sheet.getLastRowNum();
+            int columnCount = sheet.getRow(0).getLastCellNum();
 
-        // Skip Sr.No column
-        Object[][] data = new Object[rowCount][columnCount - 1];
+            // Skip Sr.No column
+            Object[][] data = new Object[rowCount][columnCount - 1];
 
-        DataFormatter formatter = new DataFormatter();
+            DataFormatter formatter = new DataFormatter();
 
-        for (int row = 1; row <= rowCount; row++) {
+            for (int row = 1; row <= rowCount; row++) {
 
-            Row currentRow = sheet.getRow(row);
+                Row currentRow = sheet.getRow(row);
 
-            if (currentRow == null) {
-                logger.warn("Row {} not found in sheet '{}'.", row, sheetName);
-                continue;
-            }
+                if (currentRow == null) {
+                    logger.warn("Row {} not found in sheet '{}'.", row, sheetName);
+                    continue;
+                }
 
-            for (int column = 1; column < columnCount; column++) {
+                for (int column = 1; column < columnCount; column++) {
 
-                Cell cell = currentRow.getCell(column);
+                    Cell cell = currentRow.getCell(column);
 
-                if (cell == null) {
-                    logger.warn(
-                            "Cell {} not found in row {} of sheet '{}'.",
-                            column,
-                            row,
-                            sheetName
-                    );
+                    if (cell == null) {
+                        logger.warn(
+                                "Cell {} not found in row {} of sheet '{}'.",
+                                column,
+                                row,
+                                sheetName
+                        );
 
-                    data[row - 1][column - 1] = "";
-                } else {
-                    data[row - 1][column - 1] =
-                            formatter.formatCellValue(cell);
+                        data[row - 1][column - 1] = "";
+                    } else {
+                        data[row - 1][column - 1] =
+                                formatter.formatCellValue(cell);
+                    }
                 }
             }
-        }
 
-        return data;
+            return data;
+        } catch (IOException e) {
+            throw new RuntimeException("Unable to close excel workbook.", e);
+        }
     }
 }
