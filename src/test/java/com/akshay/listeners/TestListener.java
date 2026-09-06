@@ -32,6 +32,7 @@ public class TestListener implements ITestListener {
 
         ExtentTestManager.getTest()
                 .log(Status.PASS, "Test Passed");
+        ExtentTestManager.unload();
     }
 
     @Override
@@ -48,6 +49,8 @@ public class TestListener implements ITestListener {
             ExtentTestManager.getTest()
                     .warning("Unable to attach screenshot.");
         }
+
+        ExtentTestManager.unload();
     }
 
     @Override
@@ -55,13 +58,12 @@ public class TestListener implements ITestListener {
 
         ExtentTestManager.getTest()
                 .log(Status.SKIP, "Test Skipped");
+        ExtentTestManager.unload();
     }
 
     @Override
     public void onFinish(ITestContext context) {
 
         ExtentReportManager.getReport().flush();
-
-        ExtentTestManager.unload();
     }
 }

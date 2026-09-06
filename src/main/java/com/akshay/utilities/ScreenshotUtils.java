@@ -39,11 +39,18 @@ public class ScreenshotUtils {
                 + "/test-output/screenshots/"
                 + testName + "_" + timestamp + ".png";
 
-        File source = ((TakesScreenshot) DriverManager.getDriver())
-                .getScreenshotAs(OutputType.FILE);
-
         try {
-            FileUtils.copyFile(source, new File(destination));
+            File destinationFile = new File(destination);
+            File parentDirectory = destinationFile.getParentFile();
+
+            if (parentDirectory != null && !parentDirectory.exists()) {
+                FileUtils.forceMkdir(parentDirectory);
+            }
+
+            File source = ((TakesScreenshot) DriverManager.getDriver())
+                    .getScreenshotAs(OutputType.FILE);
+
+            FileUtils.copyFile(source, destinationFile);
         } catch (IOException e) {
             throw new RuntimeException("Unable to capture screenshot", e);
         }
