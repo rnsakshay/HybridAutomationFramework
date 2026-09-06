@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - master
+  schedule:
+    - cron: '*/15 * * * *'
   workflow_dispatch:
     inputs:
       environment:
@@ -93,5 +95,3 @@ jobs:
           name: framework-logs-${{ github.run_number }}
           path: logs/
           if-no-files-found: warn
-schedule:
-  - cron: '*/15 * * * *'
