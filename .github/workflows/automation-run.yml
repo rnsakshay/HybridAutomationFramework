@@ -67,7 +67,7 @@ jobs:
 
       - name: Run automation suite
         run: >
-          mvn test
+          mvn clean test
           -Denv=${ENVIRONMENT}
           -Dbrowser=${BROWSER}
           -Dheadless=${HEADLESS}
