@@ -1,0 +1,95 @@
+name: Hybrid Automation Tests
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment config to load
+        required: true
+        default: qa
+        type: choice
+        options:
+          - qa
+          - prod
+      browser:
+        description: Browser to run UI tests against
+        required: true
+        default: chrome
+        type: choice
+        options:
+          - chrome
+          - firefox
+          - edge
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Maven TestNG Suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      ENVIRONMENT: ${{ inputs.environment || 'qa' }}
+      BROWSER: ${{ inputs.browser || 'chrome' }}
+      HEADLESS: true
+      REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      - name: Show tool versions
+        run: |
+          java -version
+          mvn -version
+          google-chrome --version || true
+          firefox --version || true
+          microsoft-edge --version || true
+
+      - name: Run automation suite
+        run: >
+          mvn test
+          -Denv=${ENVIRONMENT}
+          -Dbrowser=${BROWSER}
+          -Dheadless=${HEADLESS}
+
+      - name: Upload Surefire reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-reports-${{ github.run_number }}
+          path: target/surefire-reports/
+          if-no-files-found: warn
+
+      - name: Upload Extent report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extent-report-${{ github.run_number }}
+          path: test-output/
+          if-no-files-found: warn
+
+      - name: Upload framework logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: framework-logs-${{ github.run_number }}
+          path: logs/
+          if-no-files-found: warn
