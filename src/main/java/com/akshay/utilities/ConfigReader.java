@@ -36,7 +36,11 @@ public class ConfigReader {
                 throw new IllegalArgumentException("Property key cannot be null or blank.");
             }
 
-            String value = properties.getProperty(key);
+            String value = getOverrideValue(key);
+
+            if (value == null || value.isBlank()) {
+                value = properties.getProperty(key);
+            }
 
             if (value == null || value.isBlank()) {
                 throw new IllegalStateException(
@@ -45,5 +49,16 @@ public class ConfigReader {
             }
 
             return value.trim();
+        }
+
+        private static String getOverrideValue(String key) {
+
+            String systemProperty = System.getProperty(key);
+
+            if (systemProperty != null && !systemProperty.isBlank()) {
+                return systemProperty;
+            }
+
+            return System.getenv(key.toUpperCase().replace('.', '_'));
         }
 }
