@@ -93,3 +93,5 @@ jobs:
           name: framework-logs-${{ github.run_number }}
           path: logs/
           if-no-files-found: warn
+schedule:
+  - cron: '*/15 * * * *'
